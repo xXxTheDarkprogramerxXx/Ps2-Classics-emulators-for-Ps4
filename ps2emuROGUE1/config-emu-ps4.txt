@@ -1,0 +1,13 @@
+--path-vmc="/tmp/vmc"
+--path-emulog="/tmp/recordings"
+--path-patches="/app0/patches"
+--path-trophydata="/app0/trophy_data"
+--path-featuredata="/app0/feature_data"
+--host-osd=0
+--host-audio=1
+--host-display-mode=full
+--ps2-title-id=SLES-00000
+--ps2-lang=system
+--gs-uprender=2x2
+--gs-upscale=EdgeSmooth
+--rom="PS20220WD20050620.crack"
