@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">star ocean till the end</text>
+      <pronunciation>s t aa r ___ ow sh ax n ___ t ih l ___ dh ah ___ eh n d</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">star ocean till the end</text>
+      <pronunciation>s t aa r ___ ow sh ax n ___ t ih l ___ dh iy ___ eh n d</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
