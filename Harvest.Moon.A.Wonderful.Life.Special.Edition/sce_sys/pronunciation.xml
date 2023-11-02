@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Harvest Moon A Wonderful</text>
+      <pronunciation>hh aa r v ax s t ___ m uw n ___ ax ___ w ah n d er f ax l</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">Harvest Moon A Wonderful</text>
+      <pronunciation>hh aa v ih s t ___ m uw n ___ ax ___ w ah n d ax f uw l</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">A Wonderful Life</text>
+      <pronunciation>ax ___ w ah n d er f ax l ___ l ay f</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">A Wonderful Life</text>
+      <pronunciation>ax ___ w ah n d ax f uw l ___ l ay f</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="0">A Wonderful Life</text>
+      <pronunciation>ax ___ w ah n d ax f uw l ___ l ay f</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">A Wonderful Life</text>
+      <pronunciation>ax ___ w ah n d er f ax l ___ l ay f</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">Harvest Moon A Wonderful</text>
+      <pronunciation>hh aa v ih s t ___ m uw n ___ ax ___ w ah n d ax f uw l</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">Harvest Moon A Wonderful</text>
+      <pronunciation>hh aa r v ax s t ___ m uw n ___ ax ___ w ah n d er f ax l</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
