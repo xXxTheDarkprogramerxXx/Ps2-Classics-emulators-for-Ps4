@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="00" modified="0">
+    <speechRecognitionWords>
+      <text display="1">ジャックンダクスター</text>
+      <pronunciation>j a Q k u N d a k u s u t aL</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">ジャック</text>
+      <pronunciation>j a Q k u</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">きゅうせかいのいさん</text>
+      <pronunciation>ky u u s e k a i n o i s a N</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Jak and Daxter</text>
+      <pronunciation>jh ae k ___ ae n d ___ d ae k s t er</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">Jak and Daxter</text>
+      <pronunciation>jh ae k ___ ae n d ___ d ey k s t ax r</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">The Precursor Legacy</text>
+      <pronunciation>dh ah ___ p r iy k er s er ___ l eh g ax s iy</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">The Precursor Legacy</text>
+      <pronunciation>dh ah ___ p r iy k er s ax r ___ l eh g ax s ih</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Jak and Daxter</text>
+      <pronunciation>jh ae k ___ ae n d ___ d ey k s t ax r</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">Jak and Daxter</text>
+      <pronunciation>jh ae k ___ ae n d ___ d ae k s t er</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">The Precursor Legacy</text>
+      <pronunciation>dh ah ___ p r iy k er s ax r ___ l eh g ax s ih</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">The Precursor Legacy</text>
+      <pronunciation>dh ah ___ p r iy k er s er ___ l eh g ax s iy</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
