@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">the mark of kri</text>
+      <pronunciation>dh ah ___ m aa k ___ ao v ___ k r ih</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">the mark of kri</text>
+      <pronunciation>dh ah ___ m aa r k ___ ah v ___ k r iy</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">the mark of kri</text>
+      <pronunciation>dh iy ___ m aa k ___ ao v ___ k r ih</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">the mark of kri</text>
+      <pronunciation>dh ah ___ m aa r k ___ ao v ___ k r iy</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
