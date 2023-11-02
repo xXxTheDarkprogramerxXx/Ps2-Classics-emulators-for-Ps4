@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">ape escape two</text>
+      <pronunciation>ey p ___ ih s k ey p ___ t uw</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">ape escape two</text>
+      <pronunciation>ey p ___ ax s k ey p ___ t uw</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
