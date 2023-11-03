@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="02" modified="0">
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f aN t a v i z j oN</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f a n t a v i z j oN</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="03" modified="0">
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f a n t a b i s i o n</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f a n t a B i s j o n</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="04" modified="0">
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f a n t a f i s i o n</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f ae n t e j v i Z n</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="05" modified="0">
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f a n t a v i z i o n</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f a n t a v i z j o n</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f ae n t ey v ih zh n</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">fantavision</text>
+      <pronunciation>f ey n t er v ih zh ax n</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
