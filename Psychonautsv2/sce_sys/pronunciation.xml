@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">psychonauts</text>
+      <pronunciation>s ay k ow n ao t s</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">psychonauts</text>
+      <pronunciation>s ay k ow n ax ah t s</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
