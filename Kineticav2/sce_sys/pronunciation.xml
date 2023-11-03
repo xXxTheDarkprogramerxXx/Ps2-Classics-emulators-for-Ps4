@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="02" modified="0">
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k i n t i k a</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k i n AX t i k a</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k i n E t i k AX</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k a i n t i k AX</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="03" modified="0">
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k i n e t i k a</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k a j n t i k a</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="04" modified="0">
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k i n e i k a</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k i n e t i k ae</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k aI n t i k ae</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="05" modified="0">
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k i n e t i k a</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k z i n t i k a</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k a j n t i k a</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k ih n eh t ih k ax</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k ax n eh t ih k ax</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">kinetica</text>
+      <pronunciation>k ay n t ih k ax</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
