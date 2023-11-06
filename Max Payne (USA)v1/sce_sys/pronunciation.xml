@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">max payne</text>
+      <pronunciation>m ae k s ___ p ey n</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">max payne</text>
+      <pronunciation>m ae k s ___ p ax ay n</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
