@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeinfo>
+  <changes app_ver="01.02">
+    <![CDATA[
+      - Fixed a problem in Mission 7 which sometimes made it impossible to complete the mission
+      - Updated second screen manual.
+      - Bug fix
+    ]]>
+  </changes>
+  <changes app_ver="01.01">
+    <![CDATA[
+      - The refresh rate has been upgraded from 50hz to 60hz
+	  - Improved performance during firefights
+      - Bug fixes
+    ]]>
+  </changes>
+</changeinfo>

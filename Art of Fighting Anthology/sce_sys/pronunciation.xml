@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="00" modified="0">
+    <speechRecognitionWords>
+      <text display="1">りゅう とら の こぶし</text>
+      <pronunciation>ry u u ___ t o r a ___ n o ___ k o b u sh i</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">art of fighting anthology</text>
+      <pronunciation>aa r t ___ ah v ___ f ay t ih n ___ ae n th ao l ax jh iy</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">art of fighting anthology</text>
+      <pronunciation>aa t ___ ao v ___ f ay t ih n ___ ae n th ao l ax jh ih</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">art of fighting anthology</text>
+      <pronunciation>aa t ___ ao v ___ f ay t ih n ___ ae n th ao l ax jh ih</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">art of fighting anthology</text>
+      <pronunciation>aa r t ___ ah v ___ f ay t ih n ___ ae n th ao l ax jh iy</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

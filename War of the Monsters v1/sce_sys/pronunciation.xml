@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">war of the monsters</text>
+      <pronunciation>w ao r ___ ah v ___ dh ah ___ m ao n s t er z</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">war of the monsters</text>
+      <pronunciation>w ao r ___ ao v ___ dh ah ___ m ao n s t ax z</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeinfo>
+  <changes app_ver="01.02">
+    <![CDATA[
+      - Bug fix
+    ]]>
+  </changes>
+  <changes app_ver="01.01">
+    <![CDATA[
+      - Fixed a crash when loading into some stages such as Saras Sarrano, Ruins of Carnuss Gorguul, and The Grand Reefs
+      - Improved performance when the user's racer is badly damaged
+      - Other bug fixes
+    ]]>
+  </changes>
+</changeinfo>

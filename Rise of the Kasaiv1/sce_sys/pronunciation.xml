@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">rise of the kasai</text>
+      <pronunciation>r ay z ___ ah v ___ dh ah ___ k ax s ay</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">rise of the kasai</text>
+      <pronunciation>r ay z ___ ao v ___ dh ah ___ k ax s ay</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">rise of the kasai</text>
+      <pronunciation>r ay z ___ ah v ___ dh ah ___ k ae s ay</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">rise of the kasai</text>
+      <pronunciation>r ay z ___ ao v ___ dh ah ___ k ax z ay</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

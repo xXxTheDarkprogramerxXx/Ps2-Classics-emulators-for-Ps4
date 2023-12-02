@@ -1,0 +1,574 @@
+; Created using ilSFV on 2022-07-24 at 00:29.54 - http://cdtag.com/ilsfv
+;          706  05:00.00 2022-07-22 config-emu-ps4.txt
+;    4 631 960  22:45.34 2022-07-15 eboot.bin
+;    8 650 752  05:00.00 2022-07-22 formatted.card
+;    1 900 512  05:00.00 2022-07-22 PS20220WD20050620.crack
+;    1 828 036  05:00.00 2022-07-22 ps2-emu-compiler.self
+;    3 288 792  05:00.00 2022-07-22 sce_discmap.plt
+;          540  05:00.00 2022-07-22 docs\revision.h
+;        1 435  05:00.00 2022-07-22 feature_data\SLUS-21120_features.lua
+;3 514 302 464  05:00.00 2022-07-22 image\disc01.iso
+;          406  05:00.00 2022-07-22 lua_include\ee-cpr0-alias.lua
+;          751  05:00.00 2022-07-22 lua_include\ee-gpr-alias.lua
+;          673  05:00.00 2022-07-22 lua_include\ee-hwaddr.lua
+;          775  05:00.00 2022-07-22 lua_include\language.lua
+;        1 148  05:00.00 2022-07-22 lua_include\pad-and-key.lua
+;        7 212  05:00.00 2022-07-22 lua_include\ps2.lua
+;        1 014  05:00.00 2022-07-22 lua_include\utils.lua
+;          630  05:00.00 2022-07-22 patches\SLUS-21120_cli.conf
+;        4 652  05:00.00 2022-07-22 patches\SLUS-21120_config.lua
+;    1 361 856  05:00.00 2022-07-22 sce_companion_httpd\html\BackCover.jpg
+;        1 032  05:00.00 2022-07-22 sce_companion_httpd\html\index.html
+;        1 624  05:00.00 2022-07-22 sce_companion_httpd\html\base\arrow_up.png
+;        1 923  05:00.00 2022-07-22 sce_companion_httpd\html\base\sprites.png
+;          547  05:00.00 2022-07-22 sce_companion_httpd\html\css\default-skin.png
+;       15 554  05:00.00 2022-07-22 sce_companion_httpd\html\css\styles.min.css
+;      302 682  05:00.00 2022-07-22 sce_companion_httpd\html\js\app.min.js
+;      350 207  05:00.00 2022-07-22 sce_companion_httpd\html\large\Box01.jpg
+;      398 330  05:00.00 2022-07-22 sce_companion_httpd\html\large\Box04.jpg
+;      471 941  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page01.jpg
+;      391 728  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page02.jpg
+;      556 980  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page03.jpg
+;      676 284  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page04.jpg
+;      639 528  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page05.jpg
+;      639 472  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page06.jpg
+;      614 208  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page07.jpg
+;      536 597  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page08.jpg
+;      659 500  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page09.jpg
+;      701 863  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page10.jpg
+;      661 501  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page11.jpg
+;      721 120  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page12.jpg
+;      666 358  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page13.jpg
+;      670 142  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page14.jpg
+;      679 548  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page15.jpg
+;      710 359  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page16.jpg
+;      712 279  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page17.jpg
+;      764 564  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page18.jpg
+;      723 990  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page19.jpg
+;      694 364  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page20.jpg
+;      682 587  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page21.jpg
+;      646 701  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page22.jpg
+;      711 487  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page23.jpg
+;      654 629  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page24.jpg
+;      634 989  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page25.jpg
+;      599 991  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page26.jpg
+;      622 311  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page27.jpg
+;      620 814  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page28.jpg
+;      578 862  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page29.jpg
+;      683 003  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page30.jpg
+;      698 939  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page31.jpg
+;      643 203  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page32.jpg
+;      692 454  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page33.jpg
+;      430 505  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page34.jpg
+;      736 153  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page35.jpg
+;      854 666  05:00.00 2022-07-22 sce_companion_httpd\html\large\Page36.jpg
+;      350 207  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Box01.jpg
+;      398 330  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Box04.jpg
+;      471 941  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page01.jpg
+;      972 606  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page02.jpg
+;    1 315 356  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page03.jpg
+;    1 253 143  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page04.jpg
+;    1 194 456  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page05.jpg
+;    1 360 343  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page06.jpg
+;    1 385 706  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page07.jpg
+;    1 348 105  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page08.jpg
+;    1 420 766  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page09.jpg
+;    1 485 276  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page10.jpg
+;    1 375 069  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page11.jpg
+;    1 357 167  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page12.jpg
+;    1 287 804  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page13.jpg
+;    1 219 992  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page14.jpg
+;    1 198 500  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page15.jpg
+;    1 380 637  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page16.jpg
+;    1 334 521  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page17.jpg
+;    1 167 777  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page18.jpg
+;      854 666  05:00.00 2022-07-22 sce_companion_httpd\html\large\landscape\Page19.jpg
+;      138 381  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Box01.jpg
+;      148 736  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Box04.jpg
+;      157 166  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page01.jpg
+;      153 065  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page02.jpg
+;      123 920  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page03.jpg
+;      165 931  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page04.jpg
+;      131 520  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page05.jpg
+;      165 237  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page06.jpg
+;      146 859  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page07.jpg
+;      146 947  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page08.jpg
+;      164 444  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page09.jpg
+;      178 367  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page10.jpg
+;      178 996  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page11.jpg
+;      189 776  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page12.jpg
+;      178 751  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page13.jpg
+;      171 803  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page14.jpg
+;      187 326  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page15.jpg
+;      196 143  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page16.jpg
+;      201 618  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page17.jpg
+;      195 294  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page18.jpg
+;      177 616  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page19.jpg
+;      190 799  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page20.jpg
+;      186 002  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page21.jpg
+;      179 789  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page22.jpg
+;      196 615  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page23.jpg
+;      175 067  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page24.jpg
+;      153 550  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page25.jpg
+;      149 716  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page26.jpg
+;      148 156  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page27.jpg
+;      147 186  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page28.jpg
+;      134 247  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page29.jpg
+;      176 696  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page30.jpg
+;      179 144  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page31.jpg
+;      174 373  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page32.jpg
+;      174 413  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page33.jpg
+;      150 099  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page34.jpg
+;      207 351  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page35.jpg
+;      239 890  05:00.00 2022-07-22 sce_companion_httpd\html\medium\Page36.jpg
+;      138 381  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Box01.jpg
+;      148 736  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Box04.jpg
+;      157 166  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page01.jpg
+;      279 224  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page02.jpg
+;      295 740  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page03.jpg
+;      309 828  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page04.jpg
+;      308 815  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page05.jpg
+;      354 434  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page06.jpg
+;      365 907  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page07.jpg
+;      357 249  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page08.jpg
+;      396 198  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page09.jpg
+;      369 892  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page10.jpg
+;      374 379  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page11.jpg
+;      373 824  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page12.jpg
+;      326 488  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page13.jpg
+;      295 863  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page14.jpg
+;      278 393  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page15.jpg
+;      354 813  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page16.jpg
+;      346 176  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page17.jpg
+;      356 305  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page18.jpg
+;      239 890  05:00.00 2022-07-22 sce_companion_httpd\html\medium\landscape\Page19.jpg
+;       67 249  05:00.00 2022-07-22 sce_companion_httpd\html\small\Box01.jpg
+;       48 335  05:00.00 2022-07-22 sce_companion_httpd\html\small\Box04.jpg
+;       53 150  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page01.jpg
+;       58 117  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page02.jpg
+;       35 691  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page03.jpg
+;       49 544  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page04.jpg
+;       36 828  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page05.jpg
+;       44 873  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page06.jpg
+;       62 730  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page07.jpg
+;       44 173  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page08.jpg
+;       50 641  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page09.jpg
+;       53 241  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page10.jpg
+;       54 158  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page11.jpg
+;       58 640  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page12.jpg
+;       54 686  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page13.jpg
+;       51 281  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page14.jpg
+;       57 434  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page15.jpg
+;       60 842  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page16.jpg
+;       63 705  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page17.jpg
+;       60 719  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page18.jpg
+;       53 859  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page19.jpg
+;       60 127  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page20.jpg
+;       56 583  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page21.jpg
+;       57 831  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page22.jpg
+;       60 928  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page23.jpg
+;       53 585  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page24.jpg
+;       45 848  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page25.jpg
+;       45 214  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page26.jpg
+;       44 563  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page27.jpg
+;       44 012  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page28.jpg
+;       38 505  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page29.jpg
+;       52 591  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page30.jpg
+;       52 509  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page31.jpg
+;       54 337  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page32.jpg
+;       51 455  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page33.jpg
+;       50 180  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page34.jpg
+;       60 401  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page35.jpg
+;       57 327  05:00.00 2022-07-22 sce_companion_httpd\html\small\Page36.jpg
+;       67 249  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Box01.jpg
+;       48 335  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Box04.jpg
+;       53 150  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page01.jpg
+;       93 497  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page02.jpg
+;       84 656  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page03.jpg
+;      128 697  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page04.jpg
+;       92 492  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page05.jpg
+;      105 022  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page06.jpg
+;      111 013  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page07.jpg
+;      106 237  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page08.jpg
+;      122 333  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page09.jpg
+;      112 684  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page10.jpg
+;      115 205  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page11.jpg
+;      116 897  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page12.jpg
+;       97 911  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page13.jpg
+;       87 684  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page14.jpg
+;       80 395  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page15.jpg
+;      103 962  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page16.jpg
+;      103 183  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page17.jpg
+;      109 595  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page18.jpg
+;       57 327  05:00.00 2022-07-22 sce_companion_httpd\html\small\landscape\Page19.jpg
+;        9 094  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\BoxThumb01.jpg
+;        6 178  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\BoxThumb04.jpg
+;        7 435  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb01.jpg
+;        5 887  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb02.jpg
+;        4 865  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb03.jpg
+;        5 721  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb04.jpg
+;        5 680  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb05.jpg
+;        5 844  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb06.jpg
+;        8 358  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb07.jpg
+;        6 011  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb08.jpg
+;        5 865  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb09.jpg
+;        6 171  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb10.jpg
+;        6 230  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb11.jpg
+;        6 561  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb12.jpg
+;        6 129  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb13.jpg
+;        6 505  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb14.jpg
+;        6 547  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb15.jpg
+;        6 720  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb16.jpg
+;        6 814  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb17.jpg
+;        6 699  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb18.jpg
+;        6 373  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb19.jpg
+;        7 123  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb20.jpg
+;        6 680  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb21.jpg
+;        6 843  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb22.jpg
+;        6 771  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb23.jpg
+;        6 978  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb24.jpg
+;        6 404  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb25.jpg
+;        6 420  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb26.jpg
+;        6 462  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb27.jpg
+;        6 317  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb28.jpg
+;        5 739  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb29.jpg
+;        6 184  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb30.jpg
+;        6 112  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb31.jpg
+;        6 260  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb32.jpg
+;        6 114  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb33.jpg
+;        6 055  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb34.jpg
+;        5 851  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb35.jpg
+;        5 745  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\Thumb36.jpg
+;        9 094  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\BoxThumb01.jpg
+;        6 178  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\BoxThumb04.jpg
+;        7 435  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb01.jpg
+;        9 809  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb02.jpg
+;        9 967  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb03.jpg
+;       14 863  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb04.jpg
+;       10 457  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb05.jpg
+;       10 980  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb06.jpg
+;       11 310  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb07.jpg
+;       11 667  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb08.jpg
+;       12 167  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb09.jpg
+;       11 669  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb10.jpg
+;       12 394  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb11.jpg
+;       12 197  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb12.jpg
+;       11 892  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb13.jpg
+;       11 415  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb14.jpg
+;       10 612  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb15.jpg
+;       10 780  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb16.jpg
+;       10 885  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb17.jpg
+;       10 749  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb18.jpg
+;        5 745  05:00.00 2022-07-22 sce_companion_httpd\html\thumbnails\landscape\Thumb19.jpg
+;      923 874  22:45.34 2022-07-15 sce_module\libc.prx
+;      437 209  22:45.34 2022-07-15 sce_module\libSceFios2.prx
+;      131 200  05:00.00 2022-07-22 sce_sys\icon0.dds
+;      435 922  05:00.00 2022-07-22 sce_sys\icon0.png
+;           96  05:00.00 2022-07-22 sce_sys\keystone
+;        1 024  05:00.00 2022-07-22 sce_sys\license.dat
+;          512  05:00.00 2022-07-22 sce_sys\license.info
+;          532  05:00.00 2022-07-22 sce_sys\npbind.dat
+;          160  05:00.00 2022-07-22 sce_sys\nptitle.dat
+;        1 608  05:00.00 2022-07-22 sce_sys\param.sfo
+;    1 036 928  05:00.00 2022-07-22 sce_sys\pic1.dds
+;    1 938 657  05:00.00 2022-07-22 sce_sys\pic1.png
+;          416  05:00.00 2022-07-22 sce_sys\playgo-chunk.dat
+;      153 532  05:00.00 2022-07-22 sce_sys\playgo-chunk.sha
+;          368  05:00.00 2022-07-22 sce_sys\playgo-manifest.xml
+;           20  05:00.00 2022-07-22 sce_sys\pronunciation.sig
+;          449  05:00.00 2022-07-22 sce_sys\pronunciation.xml
+;        8 192  05:00.00 2022-07-22 sce_sys\psreserved.dat
+;       64 408  05:00.00 2022-07-22 sce_sys\save_data.png
+;          178  05:00.00 2022-07-22 sce_sys\shareparam.json
+;            0  05:00.00 2022-07-22 sce_sys\TKJ13.txt
+;       15 860  05:00.00 2022-07-22 sce_sys\about\right.sprx
+;    1 051 328  05:00.00 2022-07-22 sce_sys\trophy\trophy00.trp
+;    1 051 328  05:00.00 2022-07-22 sce_sys\trophy\trophy00.trp.encrypted
+;       19 989  05:00.00 2022-07-22 trophy_data\SLUS-21120_trophies.lua
+;
+config-emu-ps4.txt bd523491
+eboot.bin baab9dc6
+formatted.card b7fb3588
+PS20220WD20050620.crack 1ce4129d
+ps2-emu-compiler.self 399ef809
+sce_discmap.plt d1817f1d
+docs\revision.h a57fea00
+feature_data\SLUS-21120_features.lua 47ff225c
+image\disc01.iso 6ce5d0cd
+lua_include\ee-cpr0-alias.lua f7a359d6
+lua_include\ee-gpr-alias.lua df019463
+lua_include\ee-hwaddr.lua c42d665d
+lua_include\language.lua 24bcbb76
+lua_include\pad-and-key.lua 0cbd3272
+lua_include\ps2.lua 9766dfef
+lua_include\utils.lua 485d1450
+patches\SLUS-21120_cli.conf 51f911c1
+patches\SLUS-21120_config.lua 631a05a2
+sce_companion_httpd\html\BackCover.jpg 59af2ec4
+sce_companion_httpd\html\index.html 5a63505a
+sce_companion_httpd\html\base\arrow_up.png 14d07f65
+sce_companion_httpd\html\base\sprites.png d5f74291
+sce_companion_httpd\html\css\default-skin.png cbe9140f
+sce_companion_httpd\html\css\styles.min.css e0bacddc
+sce_companion_httpd\html\js\app.min.js 6fffd791
+sce_companion_httpd\html\large\Box01.jpg 1db71582
+sce_companion_httpd\html\large\Box04.jpg 220347ad
+sce_companion_httpd\html\large\Page01.jpg 21b846c5
+sce_companion_httpd\html\large\Page02.jpg d33efcc1
+sce_companion_httpd\html\large\Page03.jpg 5e4c64d4
+sce_companion_httpd\html\large\Page04.jpg d7132134
+sce_companion_httpd\html\large\Page05.jpg 6c0b01b4
+sce_companion_httpd\html\large\Page06.jpg 9649d360
+sce_companion_httpd\html\large\Page07.jpg 6159ea16
+sce_companion_httpd\html\large\Page08.jpg a077b0c2
+sce_companion_httpd\html\large\Page09.jpg ce24af78
+sce_companion_httpd\html\large\Page10.jpg bb6d6964
+sce_companion_httpd\html\large\Page11.jpg f48379dd
+sce_companion_httpd\html\large\Page12.jpg b2d49231
+sce_companion_httpd\html\large\Page13.jpg 4851c8f6
+sce_companion_httpd\html\large\Page14.jpg 2d0f77df
+sce_companion_httpd\html\large\Page15.jpg ebfd97e9
+sce_companion_httpd\html\large\Page16.jpg 4c3cf54c
+sce_companion_httpd\html\large\Page17.jpg b9c74f38
+sce_companion_httpd\html\large\Page18.jpg dc43a58c
+sce_companion_httpd\html\large\Page19.jpg 0ae0c760
+sce_companion_httpd\html\large\Page20.jpg 77ad4b3c
+sce_companion_httpd\html\large\Page21.jpg 71ec8c57
+sce_companion_httpd\html\large\Page22.jpg c0a2b60f
+sce_companion_httpd\html\large\Page23.jpg 76617b84
+sce_companion_httpd\html\large\Page24.jpg 6121de71
+sce_companion_httpd\html\large\Page25.jpg 2d88a104
+sce_companion_httpd\html\large\Page26.jpg 7cd61c93
+sce_companion_httpd\html\large\Page27.jpg f28614d6
+sce_companion_httpd\html\large\Page28.jpg d13df995
+sce_companion_httpd\html\large\Page29.jpg 7108e4fd
+sce_companion_httpd\html\large\Page30.jpg 44bceaad
+sce_companion_httpd\html\large\Page31.jpg 5d4c06a9
+sce_companion_httpd\html\large\Page32.jpg 061478c3
+sce_companion_httpd\html\large\Page33.jpg eedcc6c2
+sce_companion_httpd\html\large\Page34.jpg cfa3b349
+sce_companion_httpd\html\large\Page35.jpg 965af7d6
+sce_companion_httpd\html\large\Page36.jpg a8e24543
+sce_companion_httpd\html\large\landscape\Box01.jpg 1db71582
+sce_companion_httpd\html\large\landscape\Box04.jpg 220347ad
+sce_companion_httpd\html\large\landscape\Page01.jpg 21b846c5
+sce_companion_httpd\html\large\landscape\Page02.jpg eca2d073
+sce_companion_httpd\html\large\landscape\Page03.jpg c9b68ac9
+sce_companion_httpd\html\large\landscape\Page04.jpg 97224fa2
+sce_companion_httpd\html\large\landscape\Page05.jpg 52ff1aec
+sce_companion_httpd\html\large\landscape\Page06.jpg d4572825
+sce_companion_httpd\html\large\landscape\Page07.jpg 5430a0da
+sce_companion_httpd\html\large\landscape\Page08.jpg 94a39c86
+sce_companion_httpd\html\large\landscape\Page09.jpg 201dd574
+sce_companion_httpd\html\large\landscape\Page10.jpg 10ffb210
+sce_companion_httpd\html\large\landscape\Page11.jpg 4bcc5706
+sce_companion_httpd\html\large\landscape\Page12.jpg 5be8a841
+sce_companion_httpd\html\large\landscape\Page13.jpg f6410f12
+sce_companion_httpd\html\large\landscape\Page14.jpg c42d5883
+sce_companion_httpd\html\large\landscape\Page15.jpg 745c99bb
+sce_companion_httpd\html\large\landscape\Page16.jpg c445c3b1
+sce_companion_httpd\html\large\landscape\Page17.jpg cd526a62
+sce_companion_httpd\html\large\landscape\Page18.jpg 4064e515
+sce_companion_httpd\html\large\landscape\Page19.jpg a8e24543
+sce_companion_httpd\html\medium\Box01.jpg 18620ec3
+sce_companion_httpd\html\medium\Box04.jpg 3b0653c2
+sce_companion_httpd\html\medium\Page01.jpg f034347a
+sce_companion_httpd\html\medium\Page02.jpg 4cb63217
+sce_companion_httpd\html\medium\Page03.jpg abc62465
+sce_companion_httpd\html\medium\Page04.jpg 995452b4
+sce_companion_httpd\html\medium\Page05.jpg a310e101
+sce_companion_httpd\html\medium\Page06.jpg 51f35432
+sce_companion_httpd\html\medium\Page07.jpg e3cb26b8
+sce_companion_httpd\html\medium\Page08.jpg e2348335
+sce_companion_httpd\html\medium\Page09.jpg 855afaac
+sce_companion_httpd\html\medium\Page10.jpg 4c177c80
+sce_companion_httpd\html\medium\Page11.jpg bc9ac79e
+sce_companion_httpd\html\medium\Page12.jpg 705e02dd
+sce_companion_httpd\html\medium\Page13.jpg 1795f7a9
+sce_companion_httpd\html\medium\Page14.jpg 6f5040ca
+sce_companion_httpd\html\medium\Page15.jpg 1d77418b
+sce_companion_httpd\html\medium\Page16.jpg d6a7cc50
+sce_companion_httpd\html\medium\Page17.jpg 4da69294
+sce_companion_httpd\html\medium\Page18.jpg a9bee79d
+sce_companion_httpd\html\medium\Page19.jpg 938a26bb
+sce_companion_httpd\html\medium\Page20.jpg 90e4870a
+sce_companion_httpd\html\medium\Page21.jpg 49884461
+sce_companion_httpd\html\medium\Page22.jpg 2c9c6f82
+sce_companion_httpd\html\medium\Page23.jpg 585daade
+sce_companion_httpd\html\medium\Page24.jpg 5c27efbe
+sce_companion_httpd\html\medium\Page25.jpg 124c715a
+sce_companion_httpd\html\medium\Page26.jpg 17ea95af
+sce_companion_httpd\html\medium\Page27.jpg 8ffce913
+sce_companion_httpd\html\medium\Page28.jpg 979ba553
+sce_companion_httpd\html\medium\Page29.jpg def704b2
+sce_companion_httpd\html\medium\Page30.jpg e4d25cd4
+sce_companion_httpd\html\medium\Page31.jpg b5b799dd
+sce_companion_httpd\html\medium\Page32.jpg 07213953
+sce_companion_httpd\html\medium\Page33.jpg 471313f4
+sce_companion_httpd\html\medium\Page34.jpg d5cdf9f9
+sce_companion_httpd\html\medium\Page35.jpg 3bfbb04a
+sce_companion_httpd\html\medium\Page36.jpg eef54522
+sce_companion_httpd\html\medium\landscape\Box01.jpg 18620ec3
+sce_companion_httpd\html\medium\landscape\Box04.jpg 3b0653c2
+sce_companion_httpd\html\medium\landscape\Page01.jpg f034347a
+sce_companion_httpd\html\medium\landscape\Page02.jpg e1d5475a
+sce_companion_httpd\html\medium\landscape\Page03.jpg 09728e5a
+sce_companion_httpd\html\medium\landscape\Page04.jpg 65fd304f
+sce_companion_httpd\html\medium\landscape\Page05.jpg 44779c2c
+sce_companion_httpd\html\medium\landscape\Page06.jpg ebd07ae6
+sce_companion_httpd\html\medium\landscape\Page07.jpg c010300a
+sce_companion_httpd\html\medium\landscape\Page08.jpg 80f17f81
+sce_companion_httpd\html\medium\landscape\Page09.jpg c60e44dd
+sce_companion_httpd\html\medium\landscape\Page10.jpg 4b511a49
+sce_companion_httpd\html\medium\landscape\Page11.jpg e48c4f6b
+sce_companion_httpd\html\medium\landscape\Page12.jpg 1fdfc8ca
+sce_companion_httpd\html\medium\landscape\Page13.jpg be385226
+sce_companion_httpd\html\medium\landscape\Page14.jpg a3c6247b
+sce_companion_httpd\html\medium\landscape\Page15.jpg 5e9b128b
+sce_companion_httpd\html\medium\landscape\Page16.jpg 207c85b8
+sce_companion_httpd\html\medium\landscape\Page17.jpg e075ef17
+sce_companion_httpd\html\medium\landscape\Page18.jpg 5ca37d53
+sce_companion_httpd\html\medium\landscape\Page19.jpg eef54522
+sce_companion_httpd\html\small\Box01.jpg 80c6fa6b
+sce_companion_httpd\html\small\Box04.jpg 8c5ab08c
+sce_companion_httpd\html\small\Page01.jpg 24dc5338
+sce_companion_httpd\html\small\Page02.jpg 37e88e7b
+sce_companion_httpd\html\small\Page03.jpg dba67544
+sce_companion_httpd\html\small\Page04.jpg ca58391f
+sce_companion_httpd\html\small\Page05.jpg 64d15dee
+sce_companion_httpd\html\small\Page06.jpg 0b6e374f
+sce_companion_httpd\html\small\Page07.jpg 4b738171
+sce_companion_httpd\html\small\Page08.jpg e2a34063
+sce_companion_httpd\html\small\Page09.jpg 0e4f8488
+sce_companion_httpd\html\small\Page10.jpg 2c9ae4e5
+sce_companion_httpd\html\small\Page11.jpg e07de692
+sce_companion_httpd\html\small\Page12.jpg 5eef197d
+sce_companion_httpd\html\small\Page13.jpg eb5dca89
+sce_companion_httpd\html\small\Page14.jpg 9ded402c
+sce_companion_httpd\html\small\Page15.jpg 68434fc7
+sce_companion_httpd\html\small\Page16.jpg 8995f501
+sce_companion_httpd\html\small\Page17.jpg faa76c9c
+sce_companion_httpd\html\small\Page18.jpg 66d7d91e
+sce_companion_httpd\html\small\Page19.jpg 73c79caa
+sce_companion_httpd\html\small\Page20.jpg 322d7f51
+sce_companion_httpd\html\small\Page21.jpg 3f56b93a
+sce_companion_httpd\html\small\Page22.jpg b44a4d46
+sce_companion_httpd\html\small\Page23.jpg c6d8c9e5
+sce_companion_httpd\html\small\Page24.jpg b8a9ee21
+sce_companion_httpd\html\small\Page25.jpg ba656e7a
+sce_companion_httpd\html\small\Page26.jpg f09ff8fd
+sce_companion_httpd\html\small\Page27.jpg 2b407528
+sce_companion_httpd\html\small\Page28.jpg ee01e349
+sce_companion_httpd\html\small\Page29.jpg 792c757c
+sce_companion_httpd\html\small\Page30.jpg ed1583ac
+sce_companion_httpd\html\small\Page31.jpg ccb7ed72
+sce_companion_httpd\html\small\Page32.jpg 67e9118c
+sce_companion_httpd\html\small\Page33.jpg da6ee2d1
+sce_companion_httpd\html\small\Page34.jpg 93fe59b6
+sce_companion_httpd\html\small\Page35.jpg ebe806b4
+sce_companion_httpd\html\small\Page36.jpg 2b3c8753
+sce_companion_httpd\html\small\landscape\Box01.jpg 80c6fa6b
+sce_companion_httpd\html\small\landscape\Box04.jpg 8c5ab08c
+sce_companion_httpd\html\small\landscape\Page01.jpg 24dc5338
+sce_companion_httpd\html\small\landscape\Page02.jpg 6976c4ea
+sce_companion_httpd\html\small\landscape\Page03.jpg f15cc7f5
+sce_companion_httpd\html\small\landscape\Page04.jpg 886d7766
+sce_companion_httpd\html\small\landscape\Page05.jpg 08eace51
+sce_companion_httpd\html\small\landscape\Page06.jpg d6cee4b8
+sce_companion_httpd\html\small\landscape\Page07.jpg 80babe70
+sce_companion_httpd\html\small\landscape\Page08.jpg 24a895bf
+sce_companion_httpd\html\small\landscape\Page09.jpg 53abc8e7
+sce_companion_httpd\html\small\landscape\Page10.jpg 2034dcd2
+sce_companion_httpd\html\small\landscape\Page11.jpg 283a484e
+sce_companion_httpd\html\small\landscape\Page12.jpg 25f006c9
+sce_companion_httpd\html\small\landscape\Page13.jpg aa77548a
+sce_companion_httpd\html\small\landscape\Page14.jpg d557485c
+sce_companion_httpd\html\small\landscape\Page15.jpg 76cf81b9
+sce_companion_httpd\html\small\landscape\Page16.jpg d7b4b84c
+sce_companion_httpd\html\small\landscape\Page17.jpg fa62c76c
+sce_companion_httpd\html\small\landscape\Page18.jpg 1de20fc6
+sce_companion_httpd\html\small\landscape\Page19.jpg 2b3c8753
+sce_companion_httpd\html\thumbnails\BoxThumb01.jpg 33ffcd63
+sce_companion_httpd\html\thumbnails\BoxThumb04.jpg 3a661812
+sce_companion_httpd\html\thumbnails\Thumb01.jpg 17f4fd36
+sce_companion_httpd\html\thumbnails\Thumb02.jpg 89c90ab0
+sce_companion_httpd\html\thumbnails\Thumb03.jpg 588d1f40
+sce_companion_httpd\html\thumbnails\Thumb04.jpg 5748244a
+sce_companion_httpd\html\thumbnails\Thumb05.jpg ddbabf8e
+sce_companion_httpd\html\thumbnails\Thumb06.jpg b82f5e1a
+sce_companion_httpd\html\thumbnails\Thumb07.jpg 41410953
+sce_companion_httpd\html\thumbnails\Thumb08.jpg 40b88eea
+sce_companion_httpd\html\thumbnails\Thumb09.jpg 35a2f3b5
+sce_companion_httpd\html\thumbnails\Thumb10.jpg fe48421b
+sce_companion_httpd\html\thumbnails\Thumb11.jpg f952988b
+sce_companion_httpd\html\thumbnails\Thumb12.jpg 57bc7a8e
+sce_companion_httpd\html\thumbnails\Thumb13.jpg b5173fc4
+sce_companion_httpd\html\thumbnails\Thumb14.jpg 32ed3d32
+sce_companion_httpd\html\thumbnails\Thumb15.jpg c30506ff
+sce_companion_httpd\html\thumbnails\Thumb16.jpg 0e69dae3
+sce_companion_httpd\html\thumbnails\Thumb17.jpg 6d81c496
+sce_companion_httpd\html\thumbnails\Thumb18.jpg d5a8257f
+sce_companion_httpd\html\thumbnails\Thumb19.jpg 5a8e149f
+sce_companion_httpd\html\thumbnails\Thumb20.jpg 1122e20f
+sce_companion_httpd\html\thumbnails\Thumb21.jpg 0a0eaaaf
+sce_companion_httpd\html\thumbnails\Thumb22.jpg d5992160
+sce_companion_httpd\html\thumbnails\Thumb23.jpg 1965207d
+sce_companion_httpd\html\thumbnails\Thumb24.jpg 25b09c6b
+sce_companion_httpd\html\thumbnails\Thumb25.jpg 37051eba
+sce_companion_httpd\html\thumbnails\Thumb26.jpg 5990e0da
+sce_companion_httpd\html\thumbnails\Thumb27.jpg 6911c079
+sce_companion_httpd\html\thumbnails\Thumb28.jpg 4090c5ad
+sce_companion_httpd\html\thumbnails\Thumb29.jpg 003d74c1
+sce_companion_httpd\html\thumbnails\Thumb30.jpg c8ca5535
+sce_companion_httpd\html\thumbnails\Thumb31.jpg f53ed0f5
+sce_companion_httpd\html\thumbnails\Thumb32.jpg 909ab22b
+sce_companion_httpd\html\thumbnails\Thumb33.jpg a8e4a9f1
+sce_companion_httpd\html\thumbnails\Thumb34.jpg 7471240b
+sce_companion_httpd\html\thumbnails\Thumb35.jpg 2da6be84
+sce_companion_httpd\html\thumbnails\Thumb36.jpg c08350b2
+sce_companion_httpd\html\thumbnails\landscape\BoxThumb01.jpg 33ffcd63
+sce_companion_httpd\html\thumbnails\landscape\BoxThumb04.jpg 3a661812
+sce_companion_httpd\html\thumbnails\landscape\Thumb01.jpg 17f4fd36
+sce_companion_httpd\html\thumbnails\landscape\Thumb02.jpg f17f9306
+sce_companion_httpd\html\thumbnails\landscape\Thumb03.jpg 98c80804
+sce_companion_httpd\html\thumbnails\landscape\Thumb04.jpg 9c8e5d67
+sce_companion_httpd\html\thumbnails\landscape\Thumb05.jpg 627dd9c6
+sce_companion_httpd\html\thumbnails\landscape\Thumb06.jpg 48a22654
+sce_companion_httpd\html\thumbnails\landscape\Thumb07.jpg bd25dfa0
+sce_companion_httpd\html\thumbnails\landscape\Thumb08.jpg 9f31f219
+sce_companion_httpd\html\thumbnails\landscape\Thumb09.jpg b8381735
+sce_companion_httpd\html\thumbnails\landscape\Thumb10.jpg 0be301e7
+sce_companion_httpd\html\thumbnails\landscape\Thumb11.jpg b6342bde
+sce_companion_httpd\html\thumbnails\landscape\Thumb12.jpg 99469a78
+sce_companion_httpd\html\thumbnails\landscape\Thumb13.jpg 117cea9f
+sce_companion_httpd\html\thumbnails\landscape\Thumb14.jpg de0798dc
+sce_companion_httpd\html\thumbnails\landscape\Thumb15.jpg 12c50d93
+sce_companion_httpd\html\thumbnails\landscape\Thumb16.jpg 40a4bae0
+sce_companion_httpd\html\thumbnails\landscape\Thumb17.jpg a28fe9c9
+sce_companion_httpd\html\thumbnails\landscape\Thumb18.jpg 9e202c9a
+sce_companion_httpd\html\thumbnails\landscape\Thumb19.jpg c08350b2
+sce_module\libc.prx ca35c9b6
+sce_module\libSceFios2.prx 48bc5f16
+sce_sys\icon0.dds 768ba26d
+sce_sys\icon0.png 140bd3ae
+sce_sys\keystone 7ab5a602
+sce_sys\license.dat 27acf239
+sce_sys\license.info d5dc6355
+sce_sys\npbind.dat 12487d55
+sce_sys\nptitle.dat 546617de
+sce_sys\param.sfo 497279f0
+sce_sys\pic1.dds 153bc89d
+sce_sys\pic1.png 9a3e4698
+sce_sys\playgo-chunk.dat d587181f
+sce_sys\playgo-chunk.sha 623e16f7
+sce_sys\playgo-manifest.xml c9c9f561
+sce_sys\pronunciation.sig 90135baa
+sce_sys\pronunciation.xml 72b7a8b9
+sce_sys\psreserved.dat d8f49994
+sce_sys\save_data.png 6343cc35
+sce_sys\shareparam.json 3bff4712
+sce_sys\TKJ13.txt 00000000
+sce_sys\about\right.sprx 852419f8
+sce_sys\trophy\trophy00.trp f58a6795
+sce_sys\trophy\trophy00.trp.encrypted f58a6795
+trophy_data\SLUS-21120_trophies.lua 5001a9fa

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeinfo>
+  <changes app_ver="01.01">
+    <![CDATA[
+      - Bug fix.
+    ]]>
+  </changes>
+  <changes app_ver="01.02">
+    <![CDATA[
+      - Set video mode to 60Hz permanently.
+    ]]>
+  </changes>
+  <changes app_ver="01.03">
+    <![CDATA[
+      - Bug fix.
+    ]]>
+  </changes>
+</changeinfo>

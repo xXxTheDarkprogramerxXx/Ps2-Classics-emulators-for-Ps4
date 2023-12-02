@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">parappa the rapper two</text>
+      <pronunciation>p ae r ae p ax ___ dh ah ___ r ae p er ___ t uw</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">parappa the rapper two</text>
+      <pronunciation>p ae r ax p p ax ___ dh ah ___ r ae p ax r ___ t uw</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

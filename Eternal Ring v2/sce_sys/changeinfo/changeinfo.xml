@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeinfo>
+  <changes app_ver="01.01">
+    <![CDATA[
+	  - Fixed instant death bug in Limestone Cave.
+    ]]>
+  </changes>
+</changeinfo>

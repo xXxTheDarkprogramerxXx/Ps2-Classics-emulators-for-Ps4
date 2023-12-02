@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">star wars bounty hunter</text>
+      <pronunciation>s t aa r ___ w ao z ___ b aw n t ih ___ hh ah n t ax r</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">star wars bounty hunter</text>
+      <pronunciation>s t aa r ___ w ao r z ___ b aw n t iy ___ hh ah n t er</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

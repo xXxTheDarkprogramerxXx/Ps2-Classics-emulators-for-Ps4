@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="1">red faction two</text>
+      <pronunciation>r eh d ___ f ae k sh ax n ___ t uw</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">red faction two</text>
+      <pronunciation>r eh d ___ f ae k sh n ___ t uw</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">red faction two</text>
+      <pronunciation>r eh d ___ f ae k sh n ___ t uw</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">red faction two</text>
+      <pronunciation>r eh d ___ f ae k sh ax n ___ t uw</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

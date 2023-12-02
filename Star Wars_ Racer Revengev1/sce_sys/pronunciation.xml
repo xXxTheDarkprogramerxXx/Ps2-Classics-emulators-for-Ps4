@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">star wars racer revenge</text>
+      <pronunciation>s t aa r ___ w ao z ___ r ey s ax r ___ r ih v eh n jh</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">star wars racer revenge</text>
+      <pronunciation>s t aa r ___ w ao r z ___ r ey s er ___ r iy v eh n jh</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

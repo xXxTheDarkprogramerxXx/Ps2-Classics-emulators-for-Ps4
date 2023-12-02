@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="01" modified="0">
+    <speechRecognitionWords>
+      <text display="0">Harvest Moon Save</text>
+      <pronunciation>hh aa r v ax s t ___ m uw n ___ s ey v</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">Harvest Moon Save</text>
+      <pronunciation>hh aa v ih s t ___ m uw n ___ s ey v</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">Save the Homeland</text>
+      <pronunciation>s ey v ___ dh ah ___ hh ow m l ax n d</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">Save the Homeland</text>
+      <pronunciation>s ey v ___ dh ah ___ hh ow m l ae n d</pronunciation>
+    </speechRecognitionWords>
+  </language>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">Save the Homeland</text>
+      <pronunciation>s ey v ___ dh ah ___ hh ow m l ae n d</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">Save the Homeland</text>
+      <pronunciation>s ey v ___ dh ah ___ hh ow m l ax n d</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">Harvest Moon Save</text>
+      <pronunciation>hh aa v ih s t ___ m uw n ___ s ey v</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="0">Harvest Moon Save</text>
+      <pronunciation>hh aa r v ax s t ___ m uw n ___ s ey v</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

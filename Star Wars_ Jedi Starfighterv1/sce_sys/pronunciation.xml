@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">star wars jedi</text>
+      <pronunciation>s t aa r ___ w ao z ___ jh eh d ih</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">star wars jedi</text>
+      <pronunciation>s t aa r ___ w ao r z ___ jh eh d iy</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">star wars jedi</text>
+      <pronunciation>s t aa r ___ w ao z ___ jh ih d ih</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">star wars jedi</text>
+      <pronunciation>s t aa r ___ w ao r z ___ jh d iy</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">star wars jedi</text>
+      <pronunciation>s t aa r ___ w ao r z ___ jh iy d iy</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

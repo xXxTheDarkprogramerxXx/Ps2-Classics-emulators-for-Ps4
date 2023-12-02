@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeinfo>
+  <changes app_ver="01.02">
+    <![CDATA[
+      - Bug fix
+    ]]>
+  </changes>
+  <changes app_ver="01.01">
+    <![CDATA[
+      - Bug fixes to Trophy triggers for Home Sweet Home, Hoarder
+      - Graphical corruption fixed
+      - Changes to second screen manual
+    ]]>
+  </changes>
+</changeinfo>

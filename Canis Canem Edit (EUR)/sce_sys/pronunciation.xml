@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">canis canem edit</text>
+      <pronunciation>k ae n ih s ___ k ey n m ___ eh d ih t</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">canis canem edit</text>
+      <pronunciation>k ax n ax s ___ k ae n ax m ___ eh d ax t</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">canis canem edit</text>
+      <pronunciation>k ae n ih s ___ k ae n iy m ___ eh d ih t</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">canis canem edit</text>
+      <pronunciation>k ax n ax s ___ k ae n m ___ eh d ax t</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">canis canem edit</text>
+      <pronunciation>k aa n ih z ___ k ey n m ___ eh d ih t</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>

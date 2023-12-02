@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gamePackage>
+  <language id="18" modified="0">
+    <speechRecognitionWords>
+      <text display="1">okage</text>
+      <pronunciation>ow k ih jh</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">okage</text>
+      <pronunciation>ow k ax jh</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">okage</text>
+      <pronunciation>ow k aa jh</pronunciation>
+    </speechRecognitionWords>
+    <speechRecognitionWords>
+      <text display="1">okage</text>
+      <pronunciation>aa k ih jh</pronunciation>
+    </speechRecognitionWords>
+  </language>
+</gamePackage>
